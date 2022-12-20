@@ -1,0 +1,107 @@
+{
+ "gexf": {
+  "@xmlns": "http://www.gexf.net/1.2draft",
+  "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+  "@xsi:schemaLocation": "http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd",
+  "@version": "1.2",
+  "meta": {
+   "@lastmodifieddate": "2021-06-17",
+   "creator": "NetworkX 2.5"
+  },
+  "graph": {
+   "@defaultedgetype": "undirected",
+   "@mode": "static",
+   "@name": "",
+   "attributes": [
+    {
+     "@mode": "static",
+     "@class": "edge",
+     "attribute": {
+      "@id": "3",
+      "@title": "multiplicity",
+      "@type": "long"
+     }
+    },
+    {
+     "@mode": "static",
+     "@class": "node",
+     "attribute": [
+      {
+       "@id": "0",
+       "@title": "node_type",
+       "@type": "string"
+      },
+      {
+       "@id": "1",
+       "@title": "weight",
+       "@type": "long"
+      },
+      {
+       "@id": "2",
+       "@title": "multiplicity",
+       "@type": "long"
+      }
+     ]
+    }
+   ],
+   "nodes": {
+    "node": [
+     {
+      "@id": "32446707",
+      "@label": "32446707",
+      "attvalues": {
+       "attvalue": [
+        {
+         "@for": "0",
+         "@value": "actor"
+        },
+        {
+         "@for": "1",
+         "@value": "1"
+        },
+        {
+         "@for": "2",
+         "@value": "1"
+        }
+       ]
+      }
+     },
+     {
+      "@id": "543149482",
+      "@label": "543149482",
+      "attvalues": {
+       "attvalue": [
+        {
+         "@for": "0",
+         "@value": "issue"
+        },
+        {
+         "@for": "1",
+         "@value": "1"
+        },
+        {
+         "@for": "2",
+         "@value": "1"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "edges": {
+    "edge": {
+     "@source": "32446707",
+     "@target": "543149482",
+     "@id": "0",
+     "@weight": "6.0",
+     "attvalues": {
+      "attvalue": {
+       "@for": "3",
+       "@value": "6"
+      }
+     }
+    }
+   }
+  }
+ }
+}

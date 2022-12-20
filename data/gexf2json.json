@@ -1,0 +1,180 @@
+{
+ "gexf": {
+  "@xmlns": "http://www.gexf.net/1.2draft",
+  "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+  "@xsi:schemaLocation": "http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd",
+  "@version": "1.2",
+  "meta": {
+   "@lastmodifieddate": "2022-12-21",
+   "creator": "NetworkX 2.8.4"
+  },
+  "graph": {
+   "@defaultedgetype": "directed",
+   "@mode": "static",
+   "@name": "my graph",
+   "attributes": {
+    "@mode": "static",
+    "@class": "node",
+    "attribute": [
+     {
+      "@id": "0",
+      "@title": "weight",
+      "@type": "long"
+     },
+     {
+      "@id": "1",
+      "@title": "nodetype",
+      "@type": "string"
+     },
+     {
+      "@id": "2",
+      "@title": "name",
+      "@type": "string"
+     }
+    ]
+   },
+   "nodes": {
+    "node": [
+     {
+      "@id": "32446707",
+      "@label": "0",
+      "attvalues": {
+       "attvalue": [
+        {
+         "@for": "0",
+         "@value": "100"
+        },
+        {
+         "@for": "1",
+         "@value": "repo"
+        },
+        {
+         "@for": "2",
+         "@value": "soimort/mono"
+        }
+       ]
+      }
+     },
+     {
+      "@id": "342945",
+      "@label": "1",
+      "attvalues": {
+       "attvalue": [
+        {
+         "@for": "0",
+         "@value": "10"
+        },
+        {
+         "@for": "1",
+         "@value": "actor"
+        },
+        {
+         "@for": "2",
+         "@value": "soimort"
+        }
+       ]
+      }
+     },
+     {
+      "@id": "repo1",
+      "@label": "2",
+      "attvalues": {
+       "attvalue": [
+        {
+         "@for": "1",
+         "@value": "repo"
+        },
+        {
+         "@for": "0",
+         "@value": "2"
+        }
+       ]
+      }
+     },
+     {
+      "@id": "repo2",
+      "@label": "3",
+      "attvalues": {
+       "attvalue": [
+        {
+         "@for": "1",
+         "@value": "repo"
+        },
+        {
+         "@for": "0",
+         "@value": "2"
+        }
+       ]
+      }
+     },
+     {
+      "@id": "actor1",
+      "@label": "4",
+      "attvalues": {
+       "attvalue": [
+        {
+         "@for": "1",
+         "@value": "actor"
+        },
+        {
+         "@for": "0",
+         "@value": "2"
+        }
+       ]
+      }
+     },
+     {
+      "@id": "actor2",
+      "@label": "5",
+      "attvalues": {
+       "attvalue": [
+        {
+         "@for": "1",
+         "@value": "actor"
+        },
+        {
+         "@for": "0",
+         "@value": "2"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "edges": {
+    "edge": [
+     {
+      "@source": "32446707",
+      "@target": "342945",
+      "@id": "0",
+      "@weight": "1"
+     },
+     {
+      "@source": "32446707",
+      "@target": "repo1",
+      "@id": "1",
+      "@weight": "1"
+     },
+     {
+      "@source": "32446707",
+      "@target": "repo2",
+      "@id": "2",
+      "@weight": "1"
+     },
+     {
+      "@source": "342945",
+      "@target": "32446707",
+      "@id": "3",
+      "@weight": "1"
+     },
+     {
+      "@source": "repo1",
+      "@target": "342945",
+      "@id": "4",
+      "@weight": "1"
+     }
+    ]
+   }
+  }
+ }
+}
